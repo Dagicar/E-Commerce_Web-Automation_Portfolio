@@ -37,13 +37,20 @@ Si quieres probar los tests localmente, sigue estos pasos:
 
 1. Clona el repo e instala las dependencias:
    ```bash
-   git clone [https://github.com/Dagicar/E-Commerce_Web-Automation_Portfolio.git](https://github.com/Dagicar/E-Commerce_Web-Automation_Portfolio.git)
+   git clone https://github.com/Dagicar/E-Commerce_Web-Automation_Portfolio.git
    cd E-Commerce_Web-Automation_Portfolio
    npm install
    ```
+
 2. Instala los navegadores de Playwright:
-    **npx playwright install**
-3. IEjecuta las pruebas:
-    **npx playwright test**
+    ```bash 
+    npx playwright install  
+    ```
+3. Ejecuta las pruebas:
+    ```bash 
+    npx playwright test  
+    ```
 4. Para ver el reporte HTML interactivo:
-    **npx playwright show-report**
+    ```bash
+    npx playwright show-report  
+    ```
