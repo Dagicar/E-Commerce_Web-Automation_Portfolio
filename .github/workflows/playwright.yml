@@ -9,12 +9,12 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true
+      ACTIONS_RUNNER_FORCE_ACTIONS_NODE21: "true"
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
       with:
-        node-version: 24
+        node-version: 22
     - name: Install dependencies
       run: npm ci
     - name: Install Playwright Browsers
